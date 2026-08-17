@@ -1,12 +1,21 @@
 {
     "about": "Über",
-    "editCandidates": "Kandidaten bearbeiten",
+    "editCandidates": "Kandidaten entfernen",
     "undo": "Letzten Zug zurücknehmen",
     "newGame": "Neues Spiel",
     "ownGame": "Spiel eingeben",
+    "importGame": "Spiel importieren",
+    "importGameInput": "Sudoku-Zeichenkette",
+    "importGameHint": "81 Zeichen; . für leere Felder verwenden",
+    "invalidGame": "Ungültige Sudoku-Zeichenkette",
+    "cancel": "Abbrechen",
+    "confirm": "Fortfahren",
+    "confirmDiscardGame": "Das aktuelle Spiel ist noch nicht beendet und geht verloren. Möchten Sie fortfahren?",
     "generationFailed": "Fehler beim Erzeugen eines neuen Sudokus",
     "aboutNotice": "Sudoku-NG Version {{version}} ({{date}})",
     "solved": "Geschafft!",
     "noSolution": "Dieses Sudoku hat keine Lösung",
-    "multipleSolutions": "Dieses Sudoku hat mehr als eine Lösung"
+    "multipleSolutions": "Dieses Sudoku hat mehr als eine Lösung",
+    "resetGame": "Spiel zurücksetzen",
+    "fillCell": "Feld ausfüllen"
 }
