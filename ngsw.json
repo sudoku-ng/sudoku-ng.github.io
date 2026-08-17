@@ -1,0 +1,75 @@
+{
+  "configVersion": 1,
+  "timestamp": 1787000011487,
+  "index": "/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/index.html",
+        "/main-3VXXZNGL.js",
+        "/manifest.webmanifest",
+        "/polyfills-B7LGQ2G6.js",
+        "/styles-K7O7RJNE.css",
+        "/worker-HTGLITDJ.js"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/assets/i18n/de.json",
+        "/assets/i18n/en.json",
+        "/assets/icons/icon-180.png",
+        "/assets/icons/icon-192.png",
+        "/assets/icons/icon-512.png",
+        "/assets/icons/sudoku-icon.svg"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/assets/i18n/de.json": "3ab6139a6a5b33a8d0137110f80f7cf8a30640c6",
+    "/assets/i18n/en.json": "ac127439f470529d1d52435020976db91479de8d",
+    "/assets/icons/icon-180.png": "d16017b1e10954b47f9e711cdb86023e4d01e72f",
+    "/assets/icons/icon-192.png": "a9f108a36f7f0b3ebd5d68466f7cff04de786483",
+    "/assets/icons/icon-512.png": "16e70ac2003897793001e7c8e9a006e21a2c37cf",
+    "/assets/icons/sudoku-icon.svg": "49d5650b04d5110630296d0c500827e476216340",
+    "/index.html": "03e31a51f1a884d269792f0facc1e7a414a55d45",
+    "/main-3VXXZNGL.js": "461b0cf182264a040cab87ee41c77210e86f5fff",
+    "/manifest.webmanifest": "4817f3bf6d524abd2ce1fa326f4a063089ce5a06",
+    "/polyfills-B7LGQ2G6.js": "b835b82c4e73517b006e7187a8b12bcd46773054",
+    "/styles-K7O7RJNE.css": "e8b14b071ccb21fc6b68f4ecd3ddad1d247a0292",
+    "/worker-HTGLITDJ.js": "5615214fb57a202b7014f8d38b0c25bdf2b5d568"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
